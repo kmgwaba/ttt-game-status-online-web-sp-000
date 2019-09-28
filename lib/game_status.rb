@@ -62,9 +62,6 @@ end
 
 def winner(board)
   if won?(board)
-    return "O"
-  elsif
-    !won?(board)
-    return "O"
+    return win_combo
   end
 end
